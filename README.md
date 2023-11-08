@@ -12,8 +12,10 @@
 
 2. import
 
-   The 'pyserial' packages is need to be installed.
+   The 'pyserial' packages need to be installed.
 
    Run
+   <pre>
+      ~$ pip install pyserial
+   </pre>
    
-   pip install pyserial
