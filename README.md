@@ -18,4 +18,11 @@
    <pre>
       ~$ pip install pyserial
    </pre>
+
+3. USB Driver
    
+   For using LA66 USB LoRaWAN Adapter, you need to install "CP210x USB to UART Bridge VCP Drivers".
+
+   Follow the link and download the driver.
+
+   <pre>https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads</pre>
