@@ -95,7 +95,7 @@ class LoRaLib:
         return self.set_at_command("AT+RECVB=?")
 
     ### send
-    def set_text_data(self, confirmStatus, fPort, payloadLength, payload):
+    def send_text_data(self, confirmStatus, fPort, payloadLength, payload):
         return self.set_at_command(
             f"AT+SEND={confirmStatus},{fPort},{payloadLength},{payload}",
             waitDuration=2,
